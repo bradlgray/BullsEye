@@ -1,3 +1,11 @@
+//
+//  BullsEyeTests.swift
+//  BullsEyeTests
+//
+//  Created by M.I. Hollemans on 10/09/14.
+//  Copyright (c) 2014 Razeware. All rights reserved.
+//
+
 import UIKit
 import XCTest
 
@@ -26,4 +34,3 @@ class BullsEyeTests: XCTestCase {
     }
     
 }
-
