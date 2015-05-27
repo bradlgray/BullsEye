@@ -53,27 +53,19 @@ class ViewController: UIViewController {
     }
     
     func startNewRound() {
-        round--
+        round++
         
         targetValue = 1 + Int(arc4random_uniform(100))
         currentValue = 50
         slider.value = Float(currentValue)
         
-        if !(round < 0) {
-            //
-            
-        } else {
-            //alert("to bad")
-            //Make an alert here that says, "Too bad"
-            if round > -5{
-                //showAlert()
-            }
-
-        }
+    
+        
+    
     }
     func startNewGame() {
         score = 0
-        round = 6
+        round = 0
         startNewRound()
     }
     func updateLabels() {
@@ -86,7 +78,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-   
+
     @IBAction func showAlert() {
         
         if (round > 0){
